@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssu.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="conteneur">
+      <div class="box une">Élément 1</div>
+      <div class="box deux">Élément 2</div>
+      <div class="box trois">Élément 3</div>
+      <div></div>
+    </div>
+    <form method="get" action="">
+      <label for="prenom">Votre prénom</label> :
+      <input type="text" name="prenom" id="prenom" autocomplete="off" /> <br />
+      <label for="nom">Votre nom</label> :
+      <input type="text" name="nom" id="nom" required />
+      <label for="volume">volume</label> :
+      <!-- label kbal leklem w thot for bech tfasser win l id -->
+      <input type="range" name="volume" id="volume" />
+    </form>
+    <input type="checkbox" name="" id="" />
+    <form action="" method="post">
+      <p>
+        choisir la marque de votre telephone
+        <br />
+        <input type="checkbox" name="iphone" id="iphone" /><label for="iphone"
+          >Iphone</label
+        >
+        <input type="checkbox" name="samsung" id="samsung" /><label for="label"
+          >Samsung</label
+        >
+        <input type="checkbox" name="choix" checked />
+      </p>
+    </form>
+    <form method="get" action="">
+      <p>
+        Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+        <fieldset>
+          <legend>first</legend>
+        <input type="radio" name="age" value="moins15" id="moins15" />
+        <label for="moins15">Moins de 15 ans</label><br />
+        <input type="radio" name="age" value="medium15-25" id="medium15-25" />
+        <label for="medium15-25">15-25 ans</label><br />
+        <input type="radio" name="age" value="medium25-40" id="medium25-40" />
+        <label for="medium25-40">25-40 ans</label><br />
+        <input type="radio" name="age" value="plus40" id="plus40" />
+        <label for="plus40">Plus de 40 ans</label>
+      </fieldset>
+      </p>
+      <input type="submit" name="" id="" value="Envoyer">
+    </form>
+    <form action="" method="get">
+      <!-- fi kol input tnajem thot placehomder/ autofocus off autocomplete kima
+      tnajem thot required elli heya lezemk t3amer el formulat baed el envoyer temchi lel action elli fel form 
+    fema fieledest andha legende cest exactement comme les balises blocs et les balises inline block -->
+      <p>
+        choisis votre pays : <br />
+        <select name="pays" id="pays">
+          <option value="france">france</option>
+          <option value="tunisie">tunisie</option>
+          <option value="algerie">algerie</option>
+          <option value="maroc">maroc</option>
+        </select>
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+* {
+  font-family: Arial;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteneur {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.une {
+  background-color: #c2b0f9;
+  position: absolute;
+  left: 0;
+  top: 90px;
+  z-index: 1;
+}
+
+.deux {
+  background-color: #cbfcb9;
+  position: absolute;
+  right: 70px;
+  top: 0;
+  z-index: 2;
+}
+
+.trois {
+  background-color: #f2a3bb;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  z-index: 3;
+}
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+:required {
+  background-color: #f2a3bb;
+}
